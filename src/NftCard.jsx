@@ -1,4 +1,4 @@
-import './styles/styles.css'
+import './styles/styles_NftCard.css'
 
 const card__title = 'Equilibrium';
 const card__title_number = '#3429';
@@ -7,8 +7,7 @@ const card__price = '0.041 ETH';
 const card__time = '3 days left';
 const card__creator = 'Jules Wyvern';
 
-function OrderSummary() {
-  /*return alert('hola');*/
+function NftCard() {
   return(
     <div className="card">
     <div className="card__image">
@@ -57,4 +56,4 @@ function OrderSummary() {
 
   )
 }
-export default OrderSummary;
+export default NftCard;

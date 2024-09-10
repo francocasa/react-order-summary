@@ -23,11 +23,15 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  font-family: "Outfit";
+  font-weight: 300;
+  background-image: url(./../images/pattern-background-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 h1 {
@@ -54,15 +58,9 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url(./../images/pattern-background-desktop.svg);
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
 }

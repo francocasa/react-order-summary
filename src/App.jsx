@@ -1,6 +1,6 @@
 
 import './App.css'
-import OrderSummary from './OrderSummary'
+import OrderSummary from './OrderySummary'
 
 function App() {
 
